@@ -1,0 +1,67 @@
+/* QuizApp.css */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./back.webp);
+    background-size: cover;
+}
+.quiz-container {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background: rgba(74, 76, 96, .95);
+    margin-top: 100px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  .question-box {
+    margin-bottom: 20px;
+  }
+  
+  .options-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option {
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: hsla(207, 90%, 54%, 0.336);
+  }
+  
+  .button-box {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-inline: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .option.selected {
+    background-color: #2196f3; /* Blue for selected option */
+    color: #fff;
+  }
